@@ -1,0 +1,58 @@
+.button {
+    @media screen and (min-width: 0px), (max-width: 759px) {
+        // display: inline-block;
+      display: flex;
+      flex-wrap: wrap;
+        margin-bottom: 50px;
+
+        // justify-content:center;
+    }
+// display: flex;
+// margin-bottom: 50px;
+// justify-content:center;
+}
+        .button--margin {
+        @media screen and (min-width: 0px), (max-width: 759px) {
+            margin-right: 8px;
+        }
+        // margin-right: 8px;
+        }
+    .buton__appearance {
+        @media screen and (min-width: 0px), (max-width: 759px) {
+            font-size: 16px;
+            line-height: 1.6;
+            text-align: center;
+            background-color: var(--buton-portfolio);
+            border-radius: 4px;
+            transition: background-color 250ms  cubic-bezier(0.4, 0, 0.2, 1),
+            color 250ms  cubic-bezier(0.4, 0, 0.2, 1), 
+            box-shadow 250ms  cubic-bezier(0.4, 0, 0.2, 1); 
+        
+        }  
+    // font-size: 16px;
+    // line-height: 1.6;
+    // text-align: center;
+    // background-color: var(--buton-portfolio);
+    // border-radius: 4px;
+    // transition: background-color 250ms  cubic-bezier(0.4, 0, 0.2, 1),
+    // color 250ms  cubic-bezier(0.4, 0, 0.2, 1), 
+    // box-shadow 250ms  cubic-bezier(0.4, 0, 0.2, 1);
+        &:hover, &:focus {color: var(--logo-text-color);
+        background-color: var(--accent-color);
+        box-shadow: 0px 3px 1px var(--backdrop-color), 
+        0px 1px 2px var(--buton-portfolio-color-one), 
+        0px 2px 2px var(--buton-portfilio-color-two);
+        border-radius: 4px;}
+    }
+    .buton__appearance-all {
+    color: var(--logo-text-color);
+    background-color: var(--accent-color);
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    box-shadow: 0px 3px 1px var(--backdrop-color), 0px 1px 2px var(--buton-portfolio-color-one), 0px 2px 2px var(--buton-portfolio-color-two);
+    border-radius: 4px;
+    transition: background-color 250ms  cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms  cubic-bezier(0.4, 0, 0.2, 1), 
+    box-shadow 250ms  cubic-bezier(0.4, 0, 0.2, 1);
+    }

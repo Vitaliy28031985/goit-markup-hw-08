@@ -1,0 +1,28 @@
+.page-header {
+     position: relative;
+margin-bottom: 0px;
+padding-bottom: 0px;
+border-bottom:1px solid var(--border-header);
+background-color: var(--logo-text-color);
+@media screen and (min-width: 480px) {
+     height: 60px;
+}
+@media screen and (min-width: 760px) {
+     height: 80px;
+     display: flex;
+     // align-items: center;
+}
+}
+.header-menu {
+     @media screen and (min-width: 480px) {
+      display: flex;
+     align-items: center;
+     
+     }  
+}
+     .hader-nav {
+          @media screen and (min-width: 760px){
+    display:flex;
+     }
+    }
+   

@@ -1,0 +1,39 @@
+body {
+    font-family: var(--font-family-primery);
+      background-color:var(--body-background-color);
+}
+a {text-decoration: none;}
+ul, ol {
+list-style: none;
+padding: 0px;
+margin: 0px;
+}
+h1, h2, h3, p {
+margin: 0px;}
+p {
+padding: 0px;
+margin: 0px;}
+img {
+display: block;
+margin: 0px;
+padding: 0px;}
+.page {
+background-color: var(--page-backround-color);}
+.container {
+// width: 1200px;
+padding-left: 15px;
+padding-right: 15px;
+margin: 0 auto;
+
+@media screen and (min-width: 0px), (max-width: 759px) {
+  width: 480px; 
+  }
+  @media screen and (min-width: 760px) {
+    width: 760px; 
+    } 
+    @media screen and (min-width: 1200px) {
+      width: 1200px; 
+    }
+}
+.section {
+color: var(--title-text-color);}

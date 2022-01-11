@@ -1,0 +1,71 @@
+.occupation {
+    @media screen and (max-width: 1199px){
+        display: none;
+    }
+    @media screen and (min-width: 1200px) {
+position: relative;
+padding-bottom: 94px;
+    }
+
+}
+    .occupation__text {
+        @media screen and (max-width: 1199px) {
+            display: none;
+        }
+        @media screen and (min-width: 1200px) {
+color: var(--title-text-color);
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 0px;
+        } 
+    
+    }
+   .occupation__list {
+    @media screen and (max-width: 1199px){
+        display: none;
+    }
+    @media screen and (min-width: 1200px) {
+   margin-left: -30px;
+   justify-content:center;
+   display: flex;
+   background-color: var(--occupation-list);
+    }
+
+   }
+    .occupation__card {
+        @media screen and (max-width: 1199px) {
+            display: none;
+        }
+        @media screen and (min-width: 1200px) {
+    position: absolute;
+    bottom: 94px;
+    width: 370px;
+    height: 70px;
+    background-color: var(--occupation-card);
+        }
+    
+    }
+    .occupation__card-text {
+        @media screen and (max-width: 1199px) {
+            display: none;
+        }
+        @media screen and (min-width: 1200px) {
+    color: var(--logo-text-color);
+    margin-top: 27px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 1.2;
+    text-transform: uppercase;}
+    }
+    .occupation--margin {
+        @media screen and (max-width: 1199px) {
+            display: none;
+        }
+        @media screen and (min-width: 1200px) {
+        margin-left: 30px;
+        width: 370px;}
+    }
