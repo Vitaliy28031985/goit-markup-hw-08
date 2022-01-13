@@ -2,10 +2,10 @@
     @media screen and (min-width: 0px) {
         margin-left: 40px;
         position: relative;}
-        @media screen and (min-width: 760px) {
+        @media screen and (min-width: 768px) {
             display: block;
             margin-left: 84px;
-            padding-top: 23px;
+            padding-top: 21px;
         }
         @media screen and (min-width: 1200px) {
 display:flex;
@@ -20,7 +20,7 @@ margin-left: auto;}
             font-weight: 500;
             font-size: 34px;
             line-height: 1.2; }
-            @media screen and (min-width: 760px) {
+            @media screen and (min-width: 768px) {
                 color: var(--contact-color);
                 display: block;
                 margin-bottom: 8px;
@@ -42,7 +42,7 @@ margin-left: auto;}
         color: var(--accent-color);}
     } 
     .contact__link--mail {
-        @media screen and (max-width: 760px) {
+        @media screen and (max-width: 767px) {
             position: absolute;
             top: 80px;
             color: var(--contact-color);
@@ -58,10 +58,10 @@ margin-left: auto;}
     }
     
     .contact__icon {
-        @media screen and (max-width: 759px) {
+        @media screen and (max-width: 767px) {
        display: none;
         }
-        @media screen and (min-width: 760px) {
+        @media screen and (min-width: 768px) {
             width: 14px;
             height: 10px;
             fill: currentColor;
@@ -72,10 +72,10 @@ margin-left: auto;}
     fill: currentColor;}
     }
         .contact__icon--width {
-        @media screen and (max-width: 759px) {
+            @media screen and (max-width: 767px) {
         display: none;
                  }
-        @media screen and (min-width: 760px) {
+        @media screen and (min-width: 768px) {
         width: 10px;
         height: 16px;
                  } 
@@ -84,7 +84,7 @@ margin-left: auto;}
             height: 16px;} 
         }
         .icon--margin {
-            @media screen and (min-width: 760px) {
+            @media screen and (min-width: 768px) {
         margin-right: 8px;}
         @media screen and (min-width: 1200px) {
            margin-right: 10px; 
@@ -92,7 +92,7 @@ margin-left: auto;}
         }
 
         .social-header {
-        @media screen and (max-width: 759px) {
+            @media screen and (min-width: 0px) {
             display: flex;
             margin-top: 124px;
             margin-left: 40px;

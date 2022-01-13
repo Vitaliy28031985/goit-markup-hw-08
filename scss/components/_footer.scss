@@ -5,24 +5,41 @@
         background-color: var(--footer-background-color);
         padding-bottom: 60px;
         padding-top: 60px;
+        margin-left: auto;
+       margin-right: auto; 
     }
-    @media screen and (min-width: 760px) {
+    @media screen and (min-width: 768px) {
         width: 760px;
         height: 603px;
         background-color: var(--footer-background-color);
         padding-bottom: 60px;
-        padding-top: 60px;
+        // padding-top: 60px;
     }
 // background-color: var(--footer-background-color);
 // padding-bottom: 60px;
 // padding-top: 60px;
 }
-    // .footer__box {
+   
+.address-tablet {
+    @media screen and (min-width: 768px) {
+        margin-top: 60px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -89px;
+    } 
+}
+.address-tablet__wrap {
+    @media screen and (min-width: 768px) {
+        margin-left: 165px;
+        flex-basis: calc((100% - 165) / 1);
+    }
+}
+// .footer__box {
     // display: flex;
     // align-items: baseline;
     // }
 .address-box {
-    @media screen and (min-width: 0px), (max-width: 759px) {
+    @media screen and (min-width: 0px) {
         margin-top: 0px;
         // margin-left: 124px;
         margin-bottom: 60px;
@@ -30,7 +47,7 @@
 // margin-right: 70px;  
 }
     .logo-footer { 
-        @media screen and (min-width: 0px), (max-width: 759px) {
+        @media screen and (min-width: 0px) {
             text-align: center;
             margin: 0px;  
             padding: 0px; 
@@ -38,7 +55,7 @@
 
     }
     .address-box__Location {
-        @media screen and (min-width: 0px), (max-width: 759px) {
+        @media screen and (min-width: 0px) {
             margin-top: 20px;
             color: var(--logo-text-color);
             font-size: 14px;
@@ -54,7 +71,7 @@
     // text-align: left;
     }
     .address-box__mail {
-        @media screen and (min-width: 0px), (max-width: 759px) {
+        @media screen and (min-width: 0px) {
             display: block;
             margin-top: 9px;
             color: var(--footer-address);
@@ -72,7 +89,7 @@
     // text-align: left;
     }
     .address-box__tel {
-        @media screen and (min-width: 0px), (max-width: 759px) {
+        @media screen and (min-width: 0px) {
             margin-top: 9px;
             color: var(--footer-address);
             font-size: 14px;
@@ -88,7 +105,7 @@
     // text-align: left;
     }
     .footer__soc-text {
-        @media screen and (min-width: 0px), (max-width: 759px)  {
+        @media screen and (min-width: 0px) {
             margin-bottom: 20px;
             font-weight: 700;
             font-size: 14px;
@@ -106,17 +123,21 @@
     // color: var(--occupation-list);
     }
 .footer-form {
-    @media screen and (min-width: 0px), (max-width: 759px)  {
+    @media screen and (min-width: 0px) {
         position: relative;
         padding-top: 60px; 
     }
+    @media screen and (min-width: 768px) {
+        margin-left: 166px;
+    }
+
 // position: relative;
 // display: flex;
 // justify-content: center;
 // margin-left: 93px;
 }
     .footer-form__label {
-        @media screen and (min-width: 0px), (max-width: 759px)  {
+        @media screen and (min-width: 0px) {
             font-weight: 700;
             font-size: 14px;
             line-height: 16px;
@@ -133,7 +154,7 @@
     // color: var(--occupation-list);
     }
     .footer-form__input {
-        @media screen and (min-width: 0px), (max-width: 759px) {
+        @media screen and (min-width: 0px) {
             display: block;
             width: 450px;
             height: 50px;
@@ -169,7 +190,7 @@
         outline: none;}
 }
     .footer-form__button-submit {
-        @media screen and (min-width: 0px), (max-width: 759px) {
+        @media screen and (min-width: 0px) {
             position: absolute;
             width: 200px;
             height: 50px;
@@ -201,7 +222,7 @@
     // letter-spacing: 1.9;
     }
     .footer-form__iconsend{ 
-        @media screen and (min-width: 0px), (max-width: 759px) {
+        @media screen and (min-width: 0px) {
             position: absolute;
             bottom: -55px;
             left: 280px;
