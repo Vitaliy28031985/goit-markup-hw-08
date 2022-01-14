@@ -624,10 +624,10 @@ img {
   .hero {
     width: 480px;
     height: 400px;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(var(--background-hiro)), to(var(--background-hiro))), url("../images/background.jpg");
-    background-image: -webkit-linear-gradient(var(--background-hiro), var(--background-hiro)), url("../images/background.jpg");
-    background-image: -o-linear-gradient(var(--background-hiro), var(--background-hiro)), url("../images/background.jpg");
-    background-image: linear-gradient(var(--background-hiro), var(--background-hiro)), url("../images/background.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(var(--background-hiro)), to(var(--background-hiro))), url("../images/background-modile@1.jpg");
+    background-image: -webkit-linear-gradient(var(--background-hiro), var(--background-hiro)), url("../images/background-modile@1.jpg");
+    background-image: -o-linear-gradient(var(--background-hiro), var(--background-hiro)), url("../images/background-modile@1.jpg");
+    background-image: linear-gradient(var(--background-hiro), var(--background-hiro)), url("../images/background-modile@1.jpg");
     -webkit-background-size: cover;
             background-size: cover;
     background-repeat: no-repeat;
@@ -637,20 +637,38 @@ img {
   }
 }
 
+@media screen and (min-width: 0px) and (max-width: 767px) and (min-device-pixel-ratio: 2), screen and (min-width: 0px) and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 0px) and (max-width: 767px) and (-o-min-device-pixel-ratio: 2/1), screen and (min-width: 0px) and (max-width: 767px) and (min-resolution: 192dpi), screen and (min-width: 0px) and (max-width: 767px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(var(--background-hiro)), to(var(--background-hiro))), url("../images/background-tblet@2.jpg");
+    background-image: -webkit-linear-gradient(var(--background-hiro), var(--background-hiro)), url("../images/background-tblet@2.jpg");
+    background-image: -o-linear-gradient(var(--background-hiro), var(--background-hiro)), url("../images/background-tblet@2.jpg");
+    background-image: linear-gradient(var(--background-hiro), var(--background-hiro)), url("../images/background-tblet@2.jpg");
+  }
+}
+
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .hero {
     width: 768px;
     height: 400px;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(var(--background-hiro)), to(var(--background-hiro))), url("../images/background.jpg");
-    background-image: -webkit-linear-gradient(var(--background-hiro), var(--background-hiro)), url("../images/background.jpg");
-    background-image: -o-linear-gradient(var(--background-hiro), var(--background-hiro)), url("../images/background.jpg");
-    background-image: linear-gradient(var(--background-hiro), var(--background-hiro)), url("../images/background.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(var(--background-hiro)), to(var(--background-hiro))), url("../images/background-tblet@1.jpg");
+    background-image: -webkit-linear-gradient(var(--background-hiro), var(--background-hiro)), url("../images/background-tblet@1.jpg");
+    background-image: -o-linear-gradient(var(--background-hiro), var(--background-hiro)), url("../images/background-tblet@1.jpg");
+    background-image: linear-gradient(var(--background-hiro), var(--background-hiro)), url("../images/background-tblet@1.jpg");
     -webkit-background-size: cover;
             background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (max-width: 1199px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (max-width: 1199px) and (-o-min-device-pixel-ratio: 2/1), screen and (min-width: 768px) and (max-width: 1199px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (max-width: 1199px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(var(--background-hiro)), to(var(--background-hiro))), url("../images/background-mobile@2.jpg");
+    background-image: -webkit-linear-gradient(var(--background-hiro), var(--background-hiro)), url("../images/background-mobile@2.jpg");
+    background-image: -o-linear-gradient(var(--background-hiro), var(--background-hiro)), url("../images/background-mobile@2.jpg");
+    background-image: linear-gradient(var(--background-hiro), var(--background-hiro)), url("../images/background-mobile@2.jpg");
   }
 }
 
@@ -670,6 +688,15 @@ img {
             background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
+  }
+}
+
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-o-min-device-pixel-ratio: 2/1), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(var(--background-hiro)), to(var(--background-hiro))), url("../images/background-desktop@2x.jpg");
+    background-image: -webkit-linear-gradient(var(--background-hiro), var(--background-hiro)), url("../images/background-desktop@2x.jpg");
+    background-image: -o-linear-gradient(var(--background-hiro), var(--background-hiro)), url("../images/background-desktop@2x.jpg");
+    background-image: linear-gradient(var(--background-hiro), var(--background-hiro)), url("../images/background-desktop@2x.jpg");
   }
 }
 
@@ -2451,10 +2478,7 @@ img {
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
-    margin-left: -8px;
     margin-bottom: 50px;
-    display: initial;
-    margin-left: 15px;
   }
 }
 
@@ -2488,12 +2512,7 @@ img {
 
 @media screen and (min-width: 0px) and (max-width: 767px) {
   .button--margin {
-    margin-left: 0px;
     margin-right: 8px;
-    display: initial;
-    -webkit-flex-basis: -webkit-calc((100% - 32px) / 4);
-        -ms-flex-preferred-size: calc((100% - 32px) / 4);
-            flex-basis: calc((100% - 32px) / 4);
   }
 }
 
@@ -2503,8 +2522,15 @@ img {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .button--margin .button--margin-top {
+    margin-top: 15px;
+  }
+}
+
 @media screen and (min-width: 0px) and (max-width: 767px) {
   .buton__appearance {
+    padding: 6px 22px;
     font-size: 16px;
     line-height: 1.6;
     text-align: center;
@@ -2516,12 +2542,12 @@ img {
     -o-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    margin-bottom: 15px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .buton__appearance {
+    padding: 6px 22px;
     font-size: 16px;
     line-height: 1.6;
     text-align: center;
@@ -2546,6 +2572,7 @@ img {
 }
 
 .buton__appearance-all {
+  padding: 6px 22px;
   color: var(--logo-text-color);
   background-color: var(--accent-color);
   font-size: 16px;
