@@ -11,7 +11,8 @@
 display:flex;
 margin-bottom: 0px;
 margin-right: 0px;
-margin-left: auto;}
+margin-left: auto;
+}
     }
     .contact__link {
         @media screen and (min-width: 0px) {
@@ -31,7 +32,7 @@ margin-left: auto;}
             @media screen and (min-width: 1200px) {
     display: flex;
     align-items: center;
-    padding-top: 32px;
+    padding-top: 40px;
     padding-bottom: 32px;
     color: var(--contact-color);
     font-Weight: 500;
@@ -53,7 +54,7 @@ margin-left: auto;}
 
     }
     .contact--margin {
-        @media screen and (min-width:1200) {
+        @media screen and (min-width: 1200px) {
         margin-left: 50px;}
     }
     
