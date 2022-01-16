@@ -1,19 +1,16 @@
 .menu-button {
-    @media screen and (max-width: 767px) {
-  position: absolute; 
-   display: inline-block;
-   width: 24px;
-   height: 16px;
-   z-index: 6;
-   left: 410px;
-   top: 20px;
-//    margin-left: 277px;
-//    padding-top: 10px;
-   border: none;
-   background-color: transparent;}
-   @media screen and (min-width: 768px) {
-    display: none;
-                 }  
+@media screen and (max-width: 767px) {
+position: absolute; 
+display: inline-block;
+width: 24px;
+height: 16px;
+z-index: 6;
+left: 410px;
+top: 20px;
+border: none;
+background-color: transparent;}
+@media screen and (min-width: 768px) {
+display: none;                }  
 }
 
 .icon-menu {
@@ -40,7 +37,7 @@ fill: var(--title-text-Letter);
 }
 
 .menu-container {
-    @media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
 display: none;
 position: absolute;
 top:0px;
@@ -55,12 +52,12 @@ z-index: 5;
 }
 }
 @media screen and (min-width: 768px) {
-    margin-top: 0px;
-    display: flex;
+margin-top: 0px;
+display: flex;
 }
 @media screen and (min-width: 1200px) {
-    margin-top: -95px;
-    margin-left: 93px;
-    display: flex;
+margin-top: -95px;
+margin-left: 93px;
+display: flex;
 }
 }
