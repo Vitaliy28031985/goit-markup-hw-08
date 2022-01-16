@@ -1112,11 +1112,6 @@ img {
   }
 }
 
-.team__card .magin-igor {
-  margin-top: -30px;
-  margin-left: -20px;
-}
-
 @media screen and (max-width: 1199px) {
   .team__card .img-tel {
     margin-bottom: 0px;
