@@ -3,14 +3,15 @@ font-family: var(--font-family-logo);
 line-height: 1.2;
 color: var(--accent-color);
 
-@media screen and (min-width: 0px) {
+@media screen and (min-width: 0px) and (max-width:767px) {
 padding-top: 16px;
 display: block;
 font-size: 24px;
 font-weight:700;
+text-align: center; 
 color: var(--accent-color);}
     
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 760px) and (max-width: 1199px) {
 padding-bottom: 10px;
 margin-left: 15px;
 font-size: 24px;
