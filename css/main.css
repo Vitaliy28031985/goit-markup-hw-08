@@ -532,6 +532,10 @@ img {
   }
 }
 
+.contact__icon {
+  fill: currentColor;
+}
+
 @media screen and (max-width: 767px) {
   .contact__icon {
     display: none;
@@ -542,7 +546,6 @@ img {
   .contact__icon {
     width: 14px;
     height: 10px;
-    fill: currentColor;
   }
 }
 
@@ -551,6 +554,10 @@ img {
     width: 16px;
     height: 12px;
   }
+}
+
+.contact__icon--width {
+  fill: currentColor;
 }
 
 @media screen and (max-width: 767px) {
